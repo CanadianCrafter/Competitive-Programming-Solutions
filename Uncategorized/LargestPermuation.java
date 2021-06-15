@@ -14,7 +14,6 @@ public class LargestPermuation {
     		pos[arr[i]] = i;
     	}
     	int temp=0;
-//    	int max = 0;
     	for(int i =0;i<N&&K>0;i++) {
     		if(arr[i]<N-i) {
     			
@@ -26,19 +25,6 @@ public class LargestPermuation {
     			K--;
     			
     		}
-    		
-//    		for(int j = i;j<N;j++) {
-//    			if(arr[j]>max)max = arr[j];
-//    		}
-//    		if(max==arr[i]) {
-//    			i--;
-//    			continue;
-//    		}
-//    		temp = arr[i];
-//    		arr[i] = max;
-//    		arr[pos[max]]=temp;
-//    		pos[temp]=pos[max];
-//    		pos[max]=i;
     		
     	}
     	for(int i = 0;i<N;i++) {
