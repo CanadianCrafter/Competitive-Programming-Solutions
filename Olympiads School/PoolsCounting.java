@@ -11,14 +11,7 @@ public class PoolsCounting {
     	boolean map[][] = new boolean [N][M];
     	for(int i =0;i<K;i++) {
     		map[readInt()-1][readInt()-1]=true;
-    	}
-//    	for(int i =0;i<N;i++) {
-//    		for(int j =0;j<M;j++) {
-//    			System.out.print(map[i][j]?'W':".");
-//    		}
-//    		System.out.println();
-//    	}
-    	
+    	}    	
     	
     	int ans=0;
     	boolean vis[][]= new boolean[N][M];
